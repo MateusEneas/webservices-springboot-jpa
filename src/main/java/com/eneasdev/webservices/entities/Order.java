@@ -2,7 +2,6 @@ package com.eneasdev.webservices.entities;
 
 import com.eneasdev.webservices.entities.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
