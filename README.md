@@ -122,13 +122,17 @@ Com este projeto, aprendi e pratiquei os sequintes conceitos e técnicas:
    ### Imagens do Banco de Dados
 
    **Todas as tabelas**
+  
    ![Todas as tabelas](https://github.com/user-attachments/assets/0dc78bfa-a050-46df-b3a8-0af4668f10b2)
   
    **Listando os usuários**
+  
    ![Lista de Usuários](https://github.com/user-attachments/assets/6eac598d-1fb8-4520-aa2f-83e9b8cda403)
   
    **Listando os pedidos**
+  
    ![Lista de pedidos](https://github.com/user-attachments/assets/a9d0a153-3018-4859-a4d4-6975abb3a30f)
   
    **Listando Itens do Pedido**
+  
    ![Itens do pedido](https://github.com/user-attachments/assets/456b8014-abe7-4039-8b43-fc7b73611711)
