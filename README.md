@@ -108,15 +108,24 @@ Com este projeto, aprendi e pratiquei os sequintes conceitos e técnicas:
 
    ### Imagens do Postman
 
+   **Criar Usuário**
    ![Criar Usuário](https://github.com/user-attachments/assets/22afc436-ebb7-483f-abe6-b0deea5d7588)
+   **Deletar Usuário**
    ![Deletar Usuário](https://github.com/user-attachments/assets/7b52b839-f21d-4ad5-aa74-3973cdc4646d)
+   **Atualizar Usuário**
    ![Atualizar Usuário](https://github.com/user-attachments/assets/9b48f540-900d-4d26-9fd2-21b597319a1d)
+   **Deletar Usuário não existente**
    ![Tentar deletar usuário que não existe](https://github.com/user-attachments/assets/3b7a2cc7-58a1-49f5-8423-5b832112e46f)
+   **Retornar Usuário não existente**
    ![Retornar usuário que não existe](https://github.com/user-attachments/assets/af06fee6-c030-4bd0-8b38-b755559c6c11)  
 
    ### Imagens do Banco de Dados
 
+   **Todas as tabelas**
    ![Todas as tabelas](https://github.com/user-attachments/assets/0dc78bfa-a050-46df-b3a8-0af4668f10b2)
+   **Listando os usuários**
    ![Lista de Usuários](https://github.com/user-attachments/assets/6eac598d-1fb8-4520-aa2f-83e9b8cda403)
+   **Listando os pedidos**
    ![Lista de pedidos](https://github.com/user-attachments/assets/a9d0a153-3018-4859-a4d4-6975abb3a30f)
+   **Listando Itens do Pedido**
    ![Itens do pedido](https://github.com/user-attachments/assets/456b8014-abe7-4039-8b43-fc7b73611711)
