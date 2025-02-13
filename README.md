@@ -33,6 +33,18 @@ O projeto está organizado nas seguintes camadas:
 - **Enums**: Definição de `OrderStatus`.
 - **Exceptions**: Tratamento de exceções personalizadas.
 
+  ## Atualizações
+
+### 13 de Fevereiro de 2025
+
+- **Validação de campos**: Implementação de validações para os campos `nome` e `password` nos formulários de cadastro e atualização de usuários.
+    - Adicionadas as anotações `@NotBlank` e `@Size` para garantir que o nome e a senha não estejam vazios e que o nome tenha no mínimo 3 caracteres.
+- **Mensagens de erro personalizadas**: Mensagens customizadas de erro para os campos `nome` e `senha`, como "O nome não pode estar vazio" e "A senha não pode estar vazia".
+- **Exceções de validação**: Criação de exceções personalizadas para tratamento de erros de validação.
+- **Tratamento de exceções globalmente**: Uso de `@ExceptionHandler` para capturar e tratar exceções em todos os controladores.
+- **Requisições PUT e POST**: Ajustes nas rotas e validações para garantir o correto funcionamento ao atualizar e criar usuários.
+
+
 ## Aprendizados
 
 Com este projeto, aprendi e pratiquei os sequintes conceitos e técnicas:
@@ -126,8 +138,13 @@ Com este projeto, aprendi e pratiquei os sequintes conceitos e técnicas:
   
    **Retornar Usuário não existente**
   
-   ![Retornar usuário que não existe](https://github.com/user-attachments/assets/af06fee6-c030-4bd0-8b38-b755559c6c11)  
+   ![Retornar usuário que não existe](https://github.com/user-attachments/assets/af06fee6-c030-4bd0-8b38-b755559c6c11)
 
+   **Retornar Exceção de inserção de usuário**
+  
+   ![image](https://github.com/user-attachments/assets/7de06f64-72c2-4286-a2e4-a2feb3600f3c)
+   ![image](https://github.com/user-attachments/assets/2247de2a-fb0c-4f15-aaee-b9ba62b808be)
+  
    ### Imagens do Banco de Dados
 
    **Todas as tabelas**
