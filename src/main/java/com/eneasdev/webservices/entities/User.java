@@ -2,6 +2,9 @@ package com.eneasdev.webservices.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -15,9 +18,16 @@ public class User implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotBlank(message = "O nome não pode estar vazio")
+    @Size(min = 3, max = 50, message = "O nome deve ter entre 3 e 50 caracteres")
     private String nome;
     private String email;
     private String phone;
+
+    @NotBlank(message = "A senha não pode estar vazia")
+    @Size(min = 6, max = 50, message = "A senha deve ter no mínimo 6 caracteres")
+    @Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[@#$%^&+=]).{6,}$", message = "A senha deve conter pelo menos um número, uma letra e um caractere especial")
     private String password;
 
     @JsonIgnore

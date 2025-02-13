@@ -33,8 +33,8 @@ public class TestConfig implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        User u1 = new User(null, "Mateus Eneas", "mateus@gmail.com","99999999", "12345");
-        User u2 = new User(null, "Eliza Maciel", "eliza@gmail.com", "77777777", "98765");
+        User u1 = new User(null, "Mateus Eneas", "mateus@gmail.com","99999999", "teste@123");
+        User u2 = new User(null, "Eliza Maciel", "eliza@gmail.com", "77777777", "validando@123");
 
         Order o1 = new Order(null, Instant.parse("2025-01-04T19:53:07Z"), OrderStatus.WAITING_PAYMENT, u1);
         Order o2 = new Order(null, Instant.parse("2025-01-05T10:30:02Z"), OrderStatus.PAID, u2);
